@@ -1,0 +1,105 @@
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+
+locale: zh
+title: "DDoSolitary's Blog"
+title_separator: "-"
+description: 关于技术和……我编不下去了
+name: DDoSolitary
+url: https://ddosolitary.github.io
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+words_per_minute: 300
+
+comments:
+  provider: disqus
+  disqus:
+    shortname: ddosolitary-blog
+
+google_site_verification: TX77E4KXYtY4JxygtfQe4PKxhWJMPMBs6tT88Jvq0bM
+bing_site_verification: 1C12E31EA4F370B3BA786C4A43C8F166
+
+twitter:
+  username: DDoSolitary
+og_image: https://image.ibb.co/kosa1R/avatar.png
+social:
+  links:
+    - https://github.com/DDoSolitary
+    - https://www.stackoverflow.com/users/5735201/ddosolitary
+    - https://bitbucket.org/DDoSolitary
+    - https://twitter.com/DDoSolitary
+
+analytics:
+  provider: google
+  google:
+    tracking_id: UA-105397769-1
+
+author:
+  name: DDoSolitary
+  avatar: https://image.ibb.co/kosa1R/avatar.png
+  bio: 很懒的技术宅，前OIer，高考狗
+  email: DDoSolitary@gmail.com
+  bitbucket: DDoSolitary
+  github: DDoSolitary
+  stackoverflow: 5735201/ddosolitary
+  twitter: DDoSolitary
+
+include:
+  - favicon.ico
+  - _pages
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  enable_coderay: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /posts/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+whitelist:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+compress_html:
+  clippings: all
+  comments: all
+  blanklines: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+      read_time: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

@@ -1,0 +1,7 @@
+main:
+  - title: FAQ
+    url: /faq
+  - title: 搜索
+    url: /search
+  - title: 按分类
+    url: /categories/
