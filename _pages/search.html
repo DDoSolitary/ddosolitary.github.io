@@ -16,15 +16,22 @@ title: 搜索
 })();
 </script>
 <style>
-.gsc-search-button.gsc-search-button-v2, .gsc-input-box {
+input.gsc-search-button {
 	box-sizing: initial;
+	display: block;
 }
-.gsc-input {
+.gsc-input, .gsc-input:focus {
 	border-radius: initial;
 	box-shadow: initial;
 }
+.gsc-input-box {
+	height: 32px;
+}
 .gsc-input-box > table {
 	line-height: 0;
+}
+.gsc-control-cse, .gsc-search-box, .gsc-input {
+	padding: 0;
 }
 </style>
 <gcse:search></gcse:search>
