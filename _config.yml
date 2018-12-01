@@ -63,6 +63,7 @@ timezone: Asia/Shanghai
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -71,6 +72,7 @@ plugins:
 
 whitelist:
   - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
